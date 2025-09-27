@@ -6,7 +6,7 @@ const PORT = 4000;
 import bcrypt from "bcryptjs";
 app.use(express.json());
 
-const MONGODB_URI = "mongodb+srv://class4:class4@cluster0.bjrae2f.mongodb.net/";
+const MONGODB_URI = "mongodb+srv://class4:class4@cluster0.bjrae2f.mongodb.net/Class4Practicee";
 
 mongoose
   .connect(MONGODB_URI)
